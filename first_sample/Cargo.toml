@@ -1,0 +1,7 @@
+[package]
+name = "first_sample"
+version = "0.1.0"
+authors = ["Shinobu Okano <okanoshinobu8@gmail.com>"]
+edition = "2018"
+
+[dependencies]
