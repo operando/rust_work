@@ -23,4 +23,22 @@ fn main() {
     for (i, j) in (5..10).enumerate() {
         println!("i = {} and j = {}", i, j);
     }
+
+    let a = 5;
+
+    if a == 5 {
+        println!("5")
+    } else if a == 6 {
+        println!("6")
+    } else {
+        println!("!!")
+    }
+
+    // if式
+    let b = if a == 5 {
+        1
+    } else {
+        0
+    };
+    println!("{}", b)
 }
